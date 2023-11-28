@@ -2,6 +2,12 @@ import { useState } from "react";
 import { data, imgLinks } from "../sample_data";
 import "./Home.css";
 
+import Navbar from "./Navbar";
+import Header from "./Header";
+import Cards from "./Cards";
+import Gallery from "./Gallery";
+import Footer from "./Footer";
+
 function Home() {
   const [count, setCount] = useState(0);
 
@@ -10,11 +16,15 @@ function Home() {
   };
 
   return (
-    <body>
-      <button onClick={increment}>Counter: {count}</button>
-      <br /> <br />
-      <img src={data[0].url} alt="blue picture" />
-    </body>
+    <>
+      <Navbar />
+      <Header />
+      <main id="main">
+        <Cards />
+        <Gallery title={"Gallery"} data={data} />
+      </main>
+      <Footer />
+    </>
   );
 }
 

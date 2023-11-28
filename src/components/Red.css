@@ -1,0 +1,16 @@
+#redBody {
+  background-color: pink;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Main */
+#main {
+  padding: 50px;
+}
+
+.redMain h1 {
+  color: red;
+}

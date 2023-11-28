@@ -1,0 +1,16 @@
+#gallery-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+}
+
+#gallery-images img {
+  height: 450px;
+  width: 400px;
+  overflow: hidden;
+}
+
+#gallery-images img:hover {
+  box-shadow: 4px 4px 4px black;
+  cursor: pointer;
+}
