@@ -8,6 +8,8 @@
 
 ## Complete the Following Activities in Order
 
+[Replit Reference](https://replit.com/@MannyRodriguez3/ColorReel#index.html)
+
 ### Mild - Transfer it to React!
 
 1. Copy the HTML code in the Home.jsx component
