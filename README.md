@@ -8,7 +8,7 @@
 
 ## Complete the Following Activities in Order
 
-[Replit Reference](https://replit.com/@MannyRodriguez3/ColorReel#type-pages/type-style.css)
+[Replit Reference](https://replit.com/@MannyRodriguez3/ColorReel#index.html)
 
 ### Mild - Transfer it to React!
 
