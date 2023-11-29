@@ -6,6 +6,9 @@
 - `npm install` for the dependencies
 - `npm run dev` to run the site
 
+### Troubleshooting
+- Be sure you have vite installed `npm i vite`
+
 ## Complete the Following Activities in Order
 
 [Replit Reference](https://replit.com/@MannyRodriguez3/ColorReel#index.html)
